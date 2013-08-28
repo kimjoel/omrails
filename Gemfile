@@ -10,6 +10,9 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'    
 gem 'jbuilder', '~> 1.0.1'
+gem 'bootstrap-sass', '~> 2.3.2.1'
+gem 'devise', '~> 3.0.1'
+gem 'simple_form'
 
 # The asset_sync gem is WELL worth using
 # but you should read more about it before deciding
