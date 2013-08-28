@@ -21,6 +21,5 @@ module Omrails
     # config.i18n.default_locale = :de
 
     # Required for Devise on Heroku
-    config.assets.initialize_on_precompile = false
   end
 end
