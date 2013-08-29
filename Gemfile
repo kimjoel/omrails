@@ -4,15 +4,18 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 gem 'rails', '4.0.0.rc1'    
-gem 'sass-rails', '~> 4.0.0.rc1'    
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0'
-gem 'jquery-rails'
-gem 'turbolinks'    
-gem 'jbuilder', '~> 1.0.1'
-gem 'bootstrap-sass', '~> 2.3.2.1'
-gem 'devise', '~> 3.0.1'
-gem 'simple_form', '3.0.0.rc'
+
+group :assets do
+  gem 'sass-rails', '~> 4.0.0.rc1'    
+  gem 'uglifier', '>= 1.3.0'
+  gem 'coffee-rails', '~> 4.0.0'
+  gem 'jquery-rails'
+  gem 'turbolinks'    
+  gem 'jbuilder', '~> 1.0.1'
+  gem 'bootstrap-sass', '~> 2.3.2.1'
+  gem 'devise', '~> 3.0.1'
+  gem 'simple_form', '3.0.0.rc'
+end
 
 # The asset_sync gem is WELL worth using
 # but you should read more about it before deciding
