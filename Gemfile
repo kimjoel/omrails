@@ -13,6 +13,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'turbolinks'    
 gem 'jbuilder', '~> 1.0.1'
 gem 'bootstrap-sass', '~> 2.3.2.1'
+gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
+
 
 # The asset_sync gem is WELL worth using
 # but you should read more about it before deciding
