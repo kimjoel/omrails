@@ -26,7 +26,6 @@ class ProjectsController < ApplicationController
   # POST /projects.json
   def create
     @project = current_user.projects.new(project_params)
-
     respond_to do |format|
       if @project.save
         format.html { redirect_to @project, notice: 'Project was successfully created.' }
@@ -41,6 +40,7 @@ class ProjectsController < ApplicationController
   # PATCH/PUT /projects/1
   # PATCH/PUT /projects/1.json
   def update
+    @project = current_user.projects.find(set_project)
     respond_to do |format|
       if @project.update(project_params)
         format.html { redirect_to @project, notice: 'Project was successfully updated.' }
@@ -55,6 +55,7 @@ class ProjectsController < ApplicationController
   # DELETE /projects/1
   # DELETE /projects/1.json
   def destroy
+    @project = current_user.projects.find(set_project)
     @project.destroy
     respond_to do |format|
       format.html { redirect_to projects_url }
