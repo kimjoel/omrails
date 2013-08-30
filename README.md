@@ -1,6 +1,6 @@
-# One Month Rails
+# OEDB
 
-This is the sample application for
-[*One Month Rails: Teach yourself ot COde*]
+THis is a crude mvp trial for Online Educational Data base.
+Currently worked on by joel.
 
-the student is joel Kim
+Not sure what business model we are going for.
